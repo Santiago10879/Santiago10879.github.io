@@ -1,19 +1,124 @@
-/* Section titles spacing */
-h2 {
-    margin-bottom: 10px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1220;
+    color: #e5e7eb;
 }
 
-p {
-    line-height: 1.6;
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Stock_market_chart.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 90px 20px;
 }
 
-/* Make layout feel more like real websites */
-.card h2, .card h3 {
-    border-left: 4px solid #22c55e;
-    padding-left: 10px;
+/* NAV */
+nav {
+    background-color: #111827;
+    padding: 12px;
+    text-align: center;
 }
 
-/* Add subtle divider look */
+nav a {
+    color: #e5e7eb;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+/* LOGO */
+.logo {
+    color: #22c55e;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #22c55e;
+    padding: 12px 22px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #111827;
+    padding: 20px;
+    text-align: center;
+}
+
+.stats h2 {
+    color: #22c55e;
+}
+
+/* CONTAINER */
+.container {
+    padding: 25px;
+}
+
+/* CARD */
 .card {
-    border: 1px solid rgba(255,255,255,0.05);
+    background: #111827;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* MINI CARDS */
+.mini-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+/* IMAGE */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* TEXT */
+.highlight {
+    color: #22c55e;
+}
+
+/* HEADER */
+.page-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #111827;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #020617;
 }
