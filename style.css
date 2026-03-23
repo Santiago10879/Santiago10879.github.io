@@ -1,122 +1,19 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0b1220;
-    color: #e5e7eb;
+/* Section titles spacing */
+h2 {
+    margin-bottom: 10px;
 }
 
-/* HERO */
-.hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
-    url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Stock_market_chart.jpg');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 90px 20px;
+p {
+    line-height: 1.6;
 }
 
-.hero h1 {
-    font-size: 50px;
+/* Make layout feel more like real websites */
+.card h2, .card h3 {
+    border-left: 4px solid #22c55e;
+    padding-left: 10px;
 }
 
-.hero p {
-    font-size: 18px;
-    margin: 15px 0;
-}
-
-/* BUTTON */
-.btn {
-    background-color: #22c55e;
-    padding: 12px 22px;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    display: inline-block;
-}
-
-.btn:hover {
-    background-color: #16a34a;
-}
-
-/* NAV */
-nav {
-    background-color: #111827;
-    padding: 12px;
-    text-align: center;
-}
-
-nav a {
-    color: #e5e7eb;
-    margin: 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #22c55e;
-}
-
-/* CONTAINER */
-.container {
-    padding: 25px;
-}
-
-/* CARD */
+/* Add subtle divider look */
 .card {
-    background: #111827;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 900px;
-    border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
-}
-
-/* GRID */
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* MINI CARDS */
-.mini-card {
-    background: #1f2937;
-    padding: 20px;
-    border-radius: 10px;
-    width: 220px;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-.mini-card:hover {
-    transform: translateY(-5px);
-}
-
-/* IMAGE */
-img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
-/* TEXT */
-.highlight {
-    color: #22c55e;
-    font-weight: bold;
-}
-
-/* HEADER */
-.page-header {
-    text-align: center;
-    padding: 30px;
-    background-color: #111827;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #020617;
-    margin-top: 20px;
+    border: 1px solid rgba(255,255,255,0.05);
 }
