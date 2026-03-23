@@ -1,124 +1,105 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #0b1220;
-    color: #e5e7eb;
+    background-color: #f5f7fa;
+    color: #1f2937;
 }
 
-/* HERO */
+/* HEADER */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
-    url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Stock_market_chart.jpg');
-    background-size: cover;
+    background-color: #2563eb;
+    color: white;
     text-align: center;
-    padding: 90px 20px;
+    padding: 60px 20px;
 }
 
-/* NAV */
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+/* NAV BAR */
 nav {
-    background-color: #111827;
-    padding: 12px;
+    background-color: white;
+    padding: 15px;
     text-align: center;
-}
-
-nav a {
-    color: #e5e7eb;
-    margin: 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #22c55e;
+    border-bottom: 1px solid #ddd;
 }
 
 /* LOGO */
 .logo {
-    color: #22c55e;
     font-weight: bold;
+    color: #2563eb;
     margin-right: 20px;
 }
 
-/* BUTTON */
-.btn {
-    background-color: #22c55e;
-    padding: 12px 22px;
-    color: white;
+/* NAV BUTTONS */
+nav a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    background-color: #e5e7eb;
+    color: #111;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
-/* STATS */
-.stats {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    background-color: #111827;
-    padding: 20px;
-    text-align: center;
-}
-
-.stats h2 {
-    color: #22c55e;
+/* HOVER EFFECT */
+nav a:hover {
+    background-color: #2563eb;
+    color: white;
 }
 
 /* CONTAINER */
 .container {
-    padding: 25px;
+    padding: 40px 20px;
 }
 
-/* CARD */
+/* CARDS */
 .card {
-    background: #111827;
+    background: white;
     padding: 25px;
-    margin: 20px auto;
-    max-width: 900px;
-    border-radius: 12px;
-    transition: 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-3px);
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 /* GRID */
 .grid {
     display: flex;
-    gap: 20px;
     justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 /* MINI CARDS */
 .mini-card {
-    background: #1f2937;
+    background: white;
     padding: 20px;
+    width: 180px;
     border-radius: 10px;
-    width: 200px;
+    border: 1px solid #ddd;
     text-align: center;
 }
 
 /* IMAGE */
 img {
     width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
 }
 
 /* TEXT */
 .highlight {
-    color: #22c55e;
-}
-
-/* HEADER */
-.page-header {
-    text-align: center;
-    padding: 30px;
-    background-color: #111827;
+    color: #2563eb;
+    font-weight: bold;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #020617;
+    background-color: #2563eb;
+    color: white;
+    margin-top: 30px;
 }
