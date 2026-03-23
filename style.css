@@ -1,55 +1,122 @@
 body {
-font-family: Arial, sans-serif;
-background-color: #f2f2f2;
-margin: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1220;
+    color: #e5e7eb;
 }
 
-/* Header */
-header {
-background-color: #4CAF50;
-color: white;
-text-align: center;
-padding: 20px;
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Stock_market_chart.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 90px 20px;
 }
 
-/* Navigation bar */
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* BUTTON */
+.btn {
+    background-color: #22c55e;
+    padding: 12px 22px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #16a34a;
+}
+
+/* NAV */
 nav {
-background-color: #333;
-padding: 10px;
-text-align: center;
+    background-color: #111827;
+    padding: 12px;
+    text-align: center;
 }
 
 nav a {
-color: white;
-text-decoration: none;
-margin: 15px;
-font-weight: bold;
+    color: #e5e7eb;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
-color: #4CAF50;
+    color: #22c55e;
 }
 
-/* Content boxes */
-div {
-background-color: white;
-margin: 20px auto;
-padding: 20px;
-width: 70%;
-border-radius: 10px;
+/* CONTAINER */
+.container {
+    padding: 25px;
 }
 
-/* Images */
+/* CARD */
+.card {
+    background: #111827;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* MINI CARDS */
+.mini-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.mini-card:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGE */
 img {
-display: block;
-margin: 15px auto;
-border-radius: 8px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
-/* Footer */
+/* TEXT */
+.highlight {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+/* HEADER */
+.page-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #111827;
+}
+
+/* FOOTER */
 footer {
-background-color: #333;
-color: white;
-text-align: center;
-padding: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: #020617;
+    margin-top: 20px;
 }
